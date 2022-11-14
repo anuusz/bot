@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  background-size: cover;
+  background-image: url(img/1.jpg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 500px;
+  height: 250px;
+  background-color: rgba(30, 39, 39, 0.3);
+  box-shadow: 0 5px 30px black;
+}
+
+.pertanyaan {
+  text-align: center;
+  margin: 30px 30px 30px 30px;
+  border-style: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.row input {
+  border: none;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: white;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 2px solid pink;
+  font-size: 18px;
+  font-weight: bold;
+}
+input:hover {
+  outline: none;
+  border-bottom: 2px solid pink;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btn2 {
+  padding: 10px;
+  outline: none;
+  width: 150px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #552964;
+  color: white;
+  font-weight: 600;
+}
+
+.btn2:hover {
+  background-color: #242156;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Mobile Screen iPhone 5 5s SE */
+@media screen and (min-width: 375px) {
+  .wrapper {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+  }
+
+  .pertanyaan {
+    text-align: center;
+    margin: 15px 15px 15px 15px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row input {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid pink;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  input:hover {
+    outline: none;
+    border-bottom: 2px solid pink;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .btn2 {
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 18px;
+    border-style: none;
+    background-color: #552964;
+    color: white;
+    font-weight: 600;
+  }
+
+  .btn2:hover {
+    background-color: #242156;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+/* Mobile Screen iPhone 5 5s SE */
+@media screen and (min-width: 414px) {
+  .wrapper {
+    width: 350px;
+    height: 160px;
+    background-color: rgba(30, 39, 39, 0.3);
+    box-shadow: 0 5px 30px black;
+  }
+
+  .pertanyaan {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border-style: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row input {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  ::placeholder {
+    color: white;
+  }
+
+  input:focus {
+    outline: none;
+    border-bottom: 2px solid pink;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  input:hover {
+    outline: none;
+    border-bottom: 2px solid pink;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .btn2 {
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 18px;
+    border-style: none;
+    background-color: #552964;
+    color: white;
+    font-weight: 600;
+  }
+
+  .btn2:hover {
+    background-color: #242156;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
